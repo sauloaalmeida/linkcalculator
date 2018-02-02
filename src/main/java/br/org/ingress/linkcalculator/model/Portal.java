@@ -15,7 +15,7 @@ public class Portal {
         }
 
         if(resonatorsInit.size() > 8){
-            throw new IllegalArgumentException("It's not possible more then 8 resonators in a portal");
+            throw new IllegalArgumentException("It's not possible deploy more than 8 resonators in a portal");
         }
 
         this.resonators = resonatorsInit;
@@ -31,7 +31,7 @@ public class Portal {
         }
 
         if(mods.size() > 4 ){
-            throw new IllegalArgumentException("It's not possible more then 4 mods in a portal");
+            throw new IllegalArgumentException("It's not possible more than 4 mods in a portal");
         }
 
         if(resonatorsParam.size()==0 && modsInit.size()>0){
