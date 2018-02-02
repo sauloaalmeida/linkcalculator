@@ -113,7 +113,7 @@ public class PortalTest {
                 )
         );
 
-        Assert.assertEquals(45L,portalAgentLevel8.getResonatorsSum().longValue());
+        Assert.assertEquals(45,portalAgentLevel8.getResonatorsSum().longValue());
 
 
     }
@@ -184,7 +184,7 @@ public class PortalTest {
                         new Resonator(1)
                 )
         );
-        Assert.assertEquals(160L, portalL1.getLinkRangeForPortalLevelOnly().longValue());
+        Assert.assertEquals(160, portalL1.getLinkRangeForPortalLevelOnly().longValue());
 
 
         Portal portalL8 = new Portal(
@@ -199,7 +199,7 @@ public class PortalTest {
                         new Resonator(8)
                 )
         );
-        Assert.assertEquals(655360L, portalL8.getLinkRangeForPortalLevelOnly().longValue());
+        Assert.assertEquals(655360, portalL8.getLinkRangeForPortalLevelOnly().longValue());
 
 
         Portal portalAgentL8 = new Portal(
@@ -234,7 +234,7 @@ public class PortalTest {
                         new Resonator(1)
                 )
         );
-        Assert.assertEquals(160L, portalL1.getLinkRangeInMeters().longValue());
+        Assert.assertEquals(160, portalL1.getLinkRangeInMeters().longValue());
 
 
         Portal portalL8 = new Portal(
@@ -249,7 +249,7 @@ public class PortalTest {
                         new Resonator(8)
                 )
         );
-        Assert.assertEquals(655360L, portalL8.getLinkRangeInMeters().longValue());
+        Assert.assertEquals(655360, portalL8.getLinkRangeInMeters().longValue());
 
 
         Portal portalAgentL8 = new Portal(
@@ -290,7 +290,7 @@ public class PortalTest {
                         ModType.LAR
                         )
         );
-        Assert.assertEquals(480L, portalL1.getLinkRangeInMeters().longValue());
+        Assert.assertEquals(480, portalL1.getLinkRangeInMeters().longValue());
 
 
         Portal portalL8 = new Portal(
@@ -311,7 +311,7 @@ public class PortalTest {
                         ModType.LAVR
                 )
         );
-        Assert.assertEquals(6881280L, portalL8.getLinkRangeInMeters().longValue());
+        Assert.assertEquals(6881280, portalL8.getLinkRangeInMeters().longValue());
 
 
         Portal portalAgentL8 = new Portal(
