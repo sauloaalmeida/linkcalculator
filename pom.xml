@@ -8,7 +8,20 @@
     <artifactId>link-calculator</artifactId>
     <version>1.0-SNAPSHOT</version>
 
+    <repositories>
+        <repository>
+            <id>Petrobras</id>
+            <url>http://maven.petrobras.com.br/nexus/content/groups/public/</url>
+        </repository>
+    </repositories>
 
+
+    <pluginRepositories>
+        <pluginRepository>
+            <id>petrobras</id>
+            <url>http://maven.petrobras.com.br/nexus/content/groups/public/</url>
+        </pluginRepository>
+    </pluginRepositories>
 
     <dependencies>
         <dependency>
